@@ -2,11 +2,11 @@
     <img class="logo" src="../assets/login-logo.jpg" alt="Signup">
     <h2>Sign Up</h2>
     <div class="signup">
-        <input type="text" placeholder="Enter Full Name"/><br/>
-        <input type="text" placeholder="Enter Username or Email"/><br/>
-        <input type="password" placeholder="Enter Password"/><br/>
+        <input type="text" v-model="fullname" placeholder="Enter Full Name"/><br/>
+        <input type="text" v-model="email" placeholder="Enter Email"/><br/>
+        <input type="password" v-model="password" placeholder="Enter Password"/><br/>
         <input type="password" placeholder="Confirm Password"/><br/>
-        <button>Sign Up</button>
+        <button v-on:click="SignUp">Sign Up</button>
     </div>
 </template>
 
