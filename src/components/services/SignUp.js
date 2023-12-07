@@ -20,8 +20,16 @@ export default {
       console.warn(result);
       if (result.status == 201) {
         localStorage.setItem("users-info", JSON.stringify(result.data));
-        this.$router.push({name: 'Home'})
+        this.$router.push({name: 'HomePage'})
       }
     },
+  },
+
+  mounted() {
+    let user = localStorage.getItem("users-info")
+    if(user)
+    {
+      this.$router.push({ name: 'HomePage' })
+    }
   },
 };

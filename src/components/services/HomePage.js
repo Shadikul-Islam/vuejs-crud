@@ -1,3 +1,11 @@
 export default {
-  name: "HomePage"
+  name: "HomePage",
+
+  mounted() {
+    let user = localStorage.getItem("users-info")
+    if(!user)
+    {
+      this.$router.push({ name: 'SignUp' })
+    }
+  },
 };

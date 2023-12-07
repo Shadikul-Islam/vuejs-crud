@@ -1,22 +1,10 @@
 {
   "users": [
     {
-      "fullname": "Md. Shadikul Islam",
-      "email": "shadikul@mail.com",
-      "password": "shadikul123",
-      "id": 1
-    },
-    {
       "fullname": "test",
       "email": "test",
       "password": "test",
-      "id": 2
-    },
-    {
-      "fullname": "te",
-      "email": "te",
-      "password": "te",
-      "id": 3
+      "id": 1
     }
   ]
 }
