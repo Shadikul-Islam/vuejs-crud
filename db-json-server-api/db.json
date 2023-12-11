@@ -1,10 +1,28 @@
 {
   "users": [
     {
-      "fullname": "test",
+      "fullname": "Test",
       "email": "test",
       "password": "test",
       "id": 1
+    },
+    {
+      "name": "Sadik",
+      "email": "sadik@mail.com",
+      "password": "sadik123",
+      "id": 2
+    },
+    {
+      "name": "Sadik",
+      "email": "sadik@mail.com",
+      "password": "sadik123",
+      "id": 3
+    },
+    {
+      "name": "Sadik",
+      "email": "sadik@mail.com",
+      "password": "sadik123",
+      "id": 4
     }
   ]
 }
